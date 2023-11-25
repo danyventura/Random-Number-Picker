@@ -24,7 +24,7 @@ H3 {
 
 .container {
   width: 1000px;
-  margin: auto;
+  margin: 0 0 auto;
 }
 
 textarea {
