@@ -24,6 +24,7 @@ H3 {
 
 .container {
   width: 1000px;
+  margin: auto;
 }
 
 textarea {
@@ -50,4 +51,25 @@ textarea {
 
 .tag.highlight {
   background-color: #273c75;
+}
+
+@media (max-width: 1100px) {
+  .container {
+    width: 800px;
+  }
+}
+@media (max-width: 890px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 670px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 548px) {
+  .container {
+    width: 400px;
+  }
 }
