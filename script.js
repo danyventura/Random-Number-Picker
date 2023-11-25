@@ -1,18 +1,11 @@
 const tagsEl = document.getElementById('tags');
 const textarea = document.getElementById('textarea');
+const button = document.querySelector('.btn');
 
 textarea.focus();
 
-//Generate a random number
-// const randomNumber = Math.floor(1 + Math.random() * 5000);
-
-// Get the HTML element by its id
-// const randomNumberDisplay = document.getElementById('randomNumberDisplay');
-
-// Set the content of the element the the random number
-// randomNumberDisplay.textContent = `Random Number: ${randomNumber}`;
-
 textarea.addEventListener('keyup', (e) => {
+  console.log(e);
   createTags(e.target.value);
 
   if (e.key === 'Enter') {
@@ -21,6 +14,15 @@ textarea.addEventListener('keyup', (e) => {
     }, 10);
     randomSelect();
   }
+});
+
+button.addEventListener('click', (e) => {
+  const textareaNums = textarea.value;
+  createTags(textareaNums);
+
+  randomSelect();
+
+  clearTextarea();
 });
 
 function createTags(input) {
@@ -82,3 +84,7 @@ for (let i = 1; i <= 500; i++) {
 
 // Set the value to the list
 textarea.value = list.join(',');
+
+function clearTextarea() {
+  textarea.value = '';
+}
