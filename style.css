@@ -60,6 +60,8 @@ textarea {
   background-color: #f0932b;
   color: #fff;
   border-radius: 50px;
+  min-width: 50px;
+  text-align: center;
   padding: 3px 3px;
   margin: 0 2px 2px 0;
   font-size: 20px;
