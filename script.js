@@ -87,4 +87,5 @@ textarea.value = list.join(',');
 
 function clearTextarea() {
   textarea.value = '';
+  textarea.classList.add('hidden');
 }
