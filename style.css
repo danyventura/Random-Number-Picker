@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #2b88f0;
+  background-color: #20a011;
   font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ body {
 }
 
 H3 {
-  color: #f0932b;
+  color: #8a2bf0;
   margin: 10px 0 20px;
   text-align: center;
   font-size: 2rem;
@@ -36,7 +36,7 @@ textarea {
   border: none;
   display: block;
   width: 100%;
-  height: 100px;
+  height: 330px;
   font-family: inherit;
   padding: 10px;
   margin: 0 0 30px;
@@ -53,7 +53,7 @@ textarea.hidden {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #273c75;
+  color: #a71919;
   font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem;
@@ -61,7 +61,7 @@ textarea.hidden {
 }
 
 .tag {
-  background-color: #f0932b;
+  background-color: rgba(169, 10, 209, 0.715);
   color: #fff;
   border-radius: 50px;
   min-width: 50px;
